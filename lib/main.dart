@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Whats App',
       theme: ThemeData.dark().copyWith(
-        backgroundColor: backgroundColor,
+        scaffoldBackgroundColor: backgroundColor,
       ),
       home: const ResponsiveLayout(
         mobileScreenLayout: MobileScreenLayout(),
