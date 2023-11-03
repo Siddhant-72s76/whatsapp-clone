@@ -41,6 +41,7 @@ class ContactsList extends StatelessWidget {
                       backgroundImage: NetworkImage(
                         info[index]['profilePic'].toString(),
                       ),
+                      radius: 30,
                     ),
                     trailing: Text(
                       info[index]['time'].toString(),
